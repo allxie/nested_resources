@@ -11,7 +11,7 @@
 	<% @authors.each do |author| %>
 
     <div>
-        Name: <%= author.name %> <br>
+        Name: <a href="/authors/<%=author.id%>"><%= author.name %></a> <br>
        
     </div>
 
